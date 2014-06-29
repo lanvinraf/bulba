@@ -7,7 +7,7 @@ module.exports = function(grunt) {
           style: 'expanded'
         },
         files: {                         // Dictionary of files
-          'app/styles/main.css': 'app/styles/main.scss'
+          'dist/styles/main.css': 'app/styles/main.scss'
         }
       }
     }
