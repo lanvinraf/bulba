@@ -13,7 +13,7 @@ $(document).ready(function () {
 			type: 'GET',
 			data: {format: 'json', query: term}
 		});
-		
+
 		request.done(function (data) {
 			var fn = data.foodnetwork;
 			_.each(fn, function (recipe) {
